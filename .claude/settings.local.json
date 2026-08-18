@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf node_modules)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npm ls *)",
+      "Bash(npx tsc *)",
+      "Bash(echo \"---exit:$?---\")"
+    ]
+  }
+}

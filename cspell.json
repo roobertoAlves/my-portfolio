@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en,pt-BR,es",
+  "words": [
+    "cmdk",
+    "vaul",
+    "wouter",
+    "drizzle",
+    "drizzle-kit",
+    "superjson",
+    "trpc",
+    "tanstack",
+    "manus",
+    "manuspre",
+    "noir",
+    "rsbuild",
+    "dprint",
+    "oklch",
+    "resend",
+    "lenis",
+    "gsap",
+    "next-themes",
+    "nextjs",
+    "vite-plugin-imagetools",
+    "anthropic",
+    "anthropic-sdk",
+    "shadcn",
+    "awwwards"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    "dist",
+    "build",
+    "client/public",
+    "*.test.ts",
+    "*.spec.ts"
+  ]
+}

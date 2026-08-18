@@ -1,0 +1,208 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+@custom-variant light (&:is(.light *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+:root {
+  color-scheme: dark;
+
+  --radius: 0.65rem;
+
+  --background: #050505;
+  --foreground: #f5f3ee;
+  --card: #0a0a0a;
+  --card-foreground: #f5f3ee;
+  --popover: #0a0a0a;
+  --popover-foreground: #f5f3ee;
+  --primary: #c6ff3d;
+  --primary-foreground: #050505;
+  --secondary: #0f0f0f;
+  --secondary-foreground: #f5f3ee;
+  --muted: #0f0f0f;
+  --muted-foreground: #777470;
+  --accent: #c6ff3d;
+  --accent-foreground: #050505;
+  --destructive: #ff3344;
+  --destructive-foreground: #f5f3ee;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: rgba(255, 255, 255, 0.1);
+  --ring: #c6ff3d;
+
+  --accent-glow: 198 255 61;
+  --grain-opacity: 0.06;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root.light {
+  color-scheme: light;
+  --background: #f5f3ee;
+  --foreground: #050505;
+  --card: #ffffff;
+  --card-foreground: #050505;
+  --popover: #ffffff;
+  --popover-foreground: #050505;
+  --primary: #050505;
+  --primary-foreground: #f5f3ee;
+  --secondary: #ebe8e0;
+  --secondary-foreground: #050505;
+  --muted: #ebe8e0;
+  --muted-foreground: #6a6863;
+  --accent: #5dab92;
+  --accent-foreground: #050505;
+  --destructive: #b3261e;
+  --destructive-foreground: #ffffff;
+  --border: rgba(0, 0, 0, 0.12);
+  --input: rgba(0, 0, 0, 0.12);
+  --ring: #050505;
+
+  --accent-glow: 93 171 146;
+  --grain-opacity: 0.04;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+  html {
+    background: var(--background);
+    color: var(--foreground);
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "ss01", "cv11";
+  }
+
+  ::selection {
+    background: var(--primary);
+    color: var(--primary-foreground);
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      max-width: 1440px;
+    }
+  }
+
+  .rule {
+    border-top: 1px solid var(--border);
+  }
+}
+
+.accent-glow {
+  text-shadow: 0 0 18px
+    color-mix(in srgb, rgb(var(--accent-glow)) 70%, transparent);
+}
+
+.accent-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.accent-underline:hover {
+  background-size: 0% 1px;
+  background-position: 100% 100%;
+}
+
+.noir-grain {
+  position: relative;
+  isolation: isolate;
+}
+
+.noir-grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("/img/noir_texture_grain.png");
+  background-size: 220px 220px;
+  background-repeat: repeat;
+  opacity: var(--grain-opacity);
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+
+.wordmark {
+  font-feature-settings: "ss01", "cv11", "tnum";
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
