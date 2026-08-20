@@ -1,0 +1,140 @@
+[
+  {
+    "id": "noir-portfolio",
+    "slug": "noir-portfolio",
+    "title": "Noir Portfolio",
+    "summary": {
+      "pt-BR": "Este portfolio. Tema Spider-Man Noir, R3F, i18n, personalização com IA.",
+      "en": "This portfolio. Spider-Man Noir theme, R3F, i18n, AI personalization.",
+      "es": "Este portfolio. Tema Spider-Man Noir, R3F, i18n, personalización con IA."
+    },
+    "description": {
+      "pt-BR": "Portfolio pessoal com hero 3D, partículas, grid holográfico, três idiomas, modo claro/escuro e personalização via IA. A IA apenas reordena e reescreve o conteúdo versionado.",
+      "en": "Personal portfolio with 3D hero, particles, holographic grid, three languages, light/dark mode, and AI personalization. The AI only reorders and rewrites versioned content.",
+      "es": "Portfolio personal con hero 3D, partículas, grid holográfico, tres idiomas, modo claro/oscuro y personalización por IA. La IA solo reordena y reescribe el contenido versionado."
+    },
+    "category": "web",
+    "stack": ["React", "Vite", "Three.js", "R3F", "Tailwind 4", "Motion"],
+    "cover": "/img/og_image.png",
+    "repoUrl": "https://github.com/roobertoAlves/noir-portfolio",
+    "demoUrl": null,
+    "year": 2026,
+    "featured": true,
+    "difficulty": 4
+  },
+  {
+    "id": "unity-arpg",
+    "slug": "unity-arpg",
+    "title": "ARPG Framework (Unity)",
+    "summary": {
+      "pt-BR": "Framework modular de ARPG em Unity com C#: combat, inventory, save system.",
+      "en": "Modular ARPG framework in Unity with C#: combat, inventory, save system.",
+      "es": "Framework modular de ARPG en Unity con C#: combate, inventario, save system."
+    },
+    "description": {
+      "pt-BR": "Arquitetura desacoplada com ScriptableObjects, sistemas de combate, inventário, save system e UI. Foco em extensibilidade e performance.",
+      "en": "Decoupled architecture with ScriptableObjects, combat, inventory, save system, and UI. Focus on extensibility and performance.",
+      "es": "Arquitectura desacoplada con ScriptableObjects, sistemas de combate, inventario, save y UI. Foco en extensibilidad y rendimiento."
+    },
+    "category": "unity",
+    "stack": ["Unity", "C#", "ScriptableObjects"],
+    "cover": "/img/project_game_cover.png",
+    "repoUrl": "https://github.com/roobertoAlves",
+    "demoUrl": null,
+    "year": 2025,
+    "featured": true,
+    "difficulty": 5
+  },
+  {
+    "id": "web-ecommerce",
+    "slug": "web-ecommerce",
+    "title": "E-commerce Headless",
+    "summary": {
+      "pt-BR": "Loja headless com Next.js, PHP (back-end) e MySQL. Foco em UX e SEO.",
+      "en": "Headless storefront with Next.js, PHP backend, and MySQL. Focus on UX and SEO.",
+      "es": "Tienda headless con Next.js, backend en PHP y MySQL. Foco en UX y SEO."
+    },
+    "description": {
+      "pt-BR": "Catálogo, checkout, painel admin, integração com gateways. SSR para SEO, design system próprio com Tailwind 4.",
+      "en": "Catalog, checkout, admin panel, gateway integrations. SSR for SEO, custom design system on Tailwind 4.",
+      "es": "Catálogo, checkout, panel admin, integraciones con gateways. SSR para SEO, design system propio en Tailwind 4."
+    },
+    "category": "fullstack",
+    "stack": ["Next.js", "TypeScript", "PHP", "MySQL", "Tailwind"],
+    "cover": "/img/project_web_cover.png",
+    "repoUrl": "https://github.com/roobertoAlves",
+    "demoUrl": null,
+    "year": 2024,
+    "featured": true,
+    "difficulty": 4
+  },
+  {
+    "id": "react-dashboard",
+    "slug": "react-dashboard",
+    "title": "React Dashboard Kit",
+    "summary": {
+      "pt-BR": "Biblioteca interna de componentes de dashboard. Acessível, tipada, com dark mode.",
+      "en": "Internal dashboard component library. Accessible, typed, with dark mode.",
+      "es": "Librería interna de componentes de dashboard. Accesible, tipada, con modo oscuro."
+    },
+    "description": {
+      "pt-BR": "Inputs, tabelas, gráficos, navegação, formulários com Zod. Tokens CSS e variantes CVA. Cobertura de testes com Vitest.",
+      "en": "Inputs, tables, charts, navigation, forms with Zod. CSS tokens and CVA variants. Vitest coverage.",
+      "es": "Inputs, tablas, gráficos, navegación, formularios con Zod. Tokens CSS y variantes CVA. Cobertura con Vitest."
+    },
+    "category": "frontend",
+    "stack": ["React", "TypeScript", "Tailwind", "Zod", "Vitest"],
+    "cover": "/img/project_frontend_cover.png",
+    "repoUrl": "https://github.com/roobertoAlves",
+    "demoUrl": null,
+    "year": 2024,
+    "featured": false,
+    "difficulty": 3
+  },
+  {
+    "id": "php-api",
+    "slug": "php-api",
+    "title": "API PHP REST",
+    "summary": {
+      "pt-BR": "API REST em PHP com autenticação, rate limit e OpenAPI.",
+      "en": "REST API in PHP with auth, rate limit, and OpenAPI.",
+      "es": "API REST en PHP con autenticación, rate limit y OpenAPI."
+    },
+    "description": {
+      "pt-BR": "API REST modular em PHP 8.2 com camadas bem definidas, autenticação JWT, rate limit, documentação OpenAPI e MySQL.",
+      "en": "Modular REST API in PHP 8.2 with well-defined layers, JWT auth, rate limit, OpenAPI docs, and MySQL.",
+      "es": "API REST modular en PHP 8.2 con capas bien definidas, autenticación JWT, rate limit, documentación OpenAPI y MySQL."
+    },
+    "category": "backend",
+    "stack": ["PHP", "MySQL", "JWT", "OpenAPI"],
+    "cover": "/img/project_backend_cover.png",
+    "repoUrl": "https://github.com/roobertoAlves",
+    "demoUrl": null,
+    "year": 2023,
+    "featured": false,
+    "difficulty": 3
+  },
+  {
+    "id": "academic-paper",
+    "slug": "academic-paper",
+    "title": "Pesquisa em Jogos Sérios",
+    "summary": {
+      "pt-BR": "Artigo acadêmico sobre serious games e métricas de engajamento.",
+      "en": "Academic paper on serious games and engagement metrics.",
+      "es": "Artículo académico sobre serious games y métricas de engagement."
+    },
+    "description": {
+      "pt-BR": "Pesquisa publicada com protótipo em Unity e estudo com usuários.",
+      "en": "Published research with a Unity prototype and a user study.",
+      "es": "Investigación publicada con prototipo en Unity y estudio con usuarios."
+    },
+    "category": "academic",
+    "stack": ["Unity", "C#", "Research"],
+    "cover": "/img/project_academic_cover.png",
+    "repoUrl": "https://github.com/roobertoAlves",
+    "demoUrl": null,
+    "year": 2022,
+    "featured": false,
+    "difficulty": 3
+  }
+]

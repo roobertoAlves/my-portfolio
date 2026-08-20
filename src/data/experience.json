@@ -1,0 +1,69 @@
+[
+  {
+    "id": "freelance-fullstack",
+    "company": "Projetos próprios e freelas",
+    "role": {
+      "pt-BR": "Full Stack & Game Developer",
+      "en": "Full Stack & Game Developer",
+      "es": "Full Stack & Game Developer"
+    },
+    "start": "2022-01",
+    "end": null,
+    "location": "Remoto · Brasil",
+    "summary": {
+      "pt-BR": ["Desenvolvimento de produtos web end-to-end e jogos em Unity para clientes e projetos autorais."],
+      "en": ["End-to-end web product development and Unity games for clients and personal projects."],
+      "es": ["Desarrollo de productos web end-to-end y juegos en Unity para clientes y proyectos propios."]
+    },
+    "highlights": {
+      "pt-BR": [
+        "Arquitetura de front-end com React 19, Next.js 15, TypeScript estrito e Tailwind 4.",
+        "Back-ends em Node/Express e PHP, com MySQL modelado para cada domínio.",
+        "Jogos 2D/3D em Unity com C#, incluindo systems, UI e tooling."
+      ],
+      "en": [
+        "Front-end architecture with React 19, Next.js 15, strict TypeScript, and Tailwind 4.",
+        "Backends in Node/Express and PHP, with MySQL modeled per domain.",
+        "2D/3D Unity games in C#, including systems, UI, and tooling."
+      ],
+      "es": [
+        "Arquitectura de front-end con React 19, Next.js 15, TypeScript estricto y Tailwind 4.",
+        "Backends en Node/Express y PHP, con MySQL modelado por dominio.",
+        "Juegos 2D/3D en Unity con C#, incluyendo systems, UI y tooling."
+      ]
+    },
+    "stack": ["React", "Next.js", "TypeScript", "Tailwind", "Node", "PHP", "MySQL", "Unity", "C#"]
+  },
+  {
+    "id": "academic-research",
+    "company": "Iniciação Científica",
+    "role": {
+      "pt-BR": "Pesquisador (bolsista)",
+      "en": "Researcher (fellowship)",
+      "es": "Investigador (becario)"
+    },
+    "start": "2021-02",
+    "end": "2022-12",
+    "location": "Universidade",
+    "summary": {
+      "pt-BR": ["Pesquisa aplicada em desenvolvimento de software e jogos, com entregas em Unity e aplicações web."],
+      "en": ["Applied research in software and game development, delivering Unity work and web apps."],
+      "es": ["Investigación aplicada en desarrollo de software y juegos, con entregas en Unity y apps web."]
+    },
+    "highlights": {
+      "pt-BR": [
+        "Prototipagem de mecânicas e sistemas em Unity.",
+        "Documentação técnica e artigos acadêmicos."
+      ],
+      "en": [
+        "Prototyping mechanics and systems in Unity.",
+        "Technical documentation and academic papers."
+      ],
+      "es": [
+        "Prototipado de mecánicas y sistemas en Unity.",
+        "Documentación técnica y artículos académicos."
+      ]
+    },
+    "stack": ["Unity", "C#", "TypeScript", "Research"]
+  }
+]

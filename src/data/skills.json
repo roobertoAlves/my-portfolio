@@ -1,0 +1,33 @@
+[
+  { "id": "react", "name": "React", "category": "frontend", "level": 5, "keywords": ["hooks", "context", "rsc"] },
+  { "id": "nextjs", "name": "Next.js", "category": "frontend", "level": 5, "keywords": ["app router", "ssr"] },
+  { "id": "typescript", "name": "TypeScript", "category": "frontend", "level": 5, "keywords": ["strict", "generics"] },
+  { "id": "tailwind", "name": "TailwindCSS", "category": "frontend", "level": 5, "keywords": ["design-system", "tokens"] },
+  { "id": "three", "name": "Three.js", "category": "frontend", "level": 3, "keywords": ["r3f", "shaders"] },
+  { "id": "framer-motion", "name": "Motion / Framer", "category": "frontend", "level": 4, "keywords": ["gestures", "layout"] },
+
+  { "id": "php", "name": "PHP", "category": "backend", "level": 4, "keywords": ["laravel", "api"] },
+  { "id": "csharp", "name": "C#", "category": "backend", "level": 4, "keywords": ["dotnet", "aspnet"] },
+  { "id": "node", "name": "Node.js", "category": "backend", "level": 4, "keywords": ["express", "fastify"] },
+  { "id": "rest", "name": "REST / APIs", "category": "backend", "level": 5, "keywords": ["openapi", "auth"] },
+
+  { "id": "unity", "name": "Unity", "category": "game", "level": 4, "keywords": ["2d", "3d", "tooling"] },
+  { "id": "csharp-unity", "name": "C# for Unity", "category": "game", "level": 4, "keywords": ["ecs", "scriptable-objects"] },
+  { "id": "gamedesign", "name": "Game Design", "category": "game", "level": 3, "keywords": ["systems", "narrative"] },
+
+  { "id": "aws", "name": "AWS", "category": "cloud", "level": 3, "keywords": ["s3", "lambda"] },
+  { "id": "vercel", "name": "Vercel", "category": "cloud", "level": 4, "keywords": ["edge", "preview"] },
+  { "id": "docker", "name": "Docker", "category": "cloud", "level": 3, "keywords": ["compose"] },
+
+  { "id": "git", "name": "Git", "category": "tools", "level": 5, "keywords": ["workflows", "review"] },
+  { "id": "figma", "name": "Figma", "category": "tools", "level": 4, "keywords": ["handoff"] },
+  { "id": "vitest", "name": "Vitest", "category": "tools", "level": 4, "keywords": ["unit"] },
+  { "id": "playwright", "name": "Playwright", "category": "tools", "level": 3, "keywords": ["e2e"] },
+
+  { "id": "mysql", "name": "MySQL", "category": "database", "level": 4, "keywords": ["modeling", "queries"] },
+  { "id": "drizzle", "name": "Drizzle", "category": "database", "level": 3, "keywords": ["orm"] },
+
+  { "id": "pt-br", "name": "Português (BR)", "category": "languages", "level": 5, "keywords": ["native"] },
+  { "id": "en", "name": "English", "category": "languages", "level": 4, "keywords": ["fluent"] },
+  { "id": "es", "name": "Espanhol", "category": "languages", "level": 3, "keywords": ["intermediate"] }
+]

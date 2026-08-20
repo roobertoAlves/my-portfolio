@@ -1,0 +1,43 @@
+{
+  "id": "beto-damasceno",
+  "name": "Roberto Alves",
+  "aliases": ["Beto Damasceno"],
+  "role": {
+    "pt-BR": "Desenvolvedor Full Stack & Game Developer",
+    "en": "Full Stack Developer & Game Developer",
+    "es": "Desarrollador Full Stack & Game Developer"
+  },
+  "location": "Brasil",
+  "headline": {
+    "pt-BR": "Construindo produtos web e jogos com obsessão por UX, performance e arquitetura limpa.",
+    "en": "Building web products and games with an obsession for UX, performance, and clean architecture.",
+    "es": "Construyendo productos web y juegos con obsesión por la UX, el rendimiento y la arquitectura limpia."
+  },
+  "bio": {
+    "pt-BR": [
+      "Sou Roberto Alves, conhecido como Beto Damasceno. Trabalho com desenvolvimento web full stack e desenvolvimento de jogos, com foco em entregar produtos que as pessoas realmente gostam de usar.",
+      "No front, trabalho com React, Next.js, TypeScript e Tailwind. No back, PHP, Node, C# e MySQL. Em jogos, Unity e C# são o meu habitat — mecânicas, sistemas e tooling.",
+      "Meu foco é o mesmo nos dois mundos: arquitetura sólida, UX cuidadosa e performance de verdade."
+    ],
+    "en": [
+      "I'm Roberto Alves, also known as Beto Damasceno. I work as a full stack web developer and a game developer, focused on shipping products people actually enjoy using.",
+      "On the front end I work with React, Next.js, TypeScript, and Tailwind. On the back end: PHP, Node, C#, and MySQL. In games, Unity and C# are my habitat — mechanics, systems, and tooling.",
+      "My focus is the same in both worlds: solid architecture, careful UX, and real performance."
+    ],
+    "es": [
+      "Soy Roberto Alves, conocido como Beto Damasceno. Trabajo como desarrollador web full stack y desarrollador de juegos, enfocado en entregar productos que la gente realmente disfruta usar.",
+      "En el front, trabajo con React, Next.js, TypeScript y Tailwind. En el back: PHP, Node, C# y MySQL. En juegos, Unity y C# son mi hogar — mecánicas, sistemas y tooling.",
+      "Mi foco es el mismo en ambos mundos: arquitectura sólida, UX cuidada y rendimiento de verdad."
+    ]
+  },
+  "links": {
+    "github": "https://github.com/roobertoAlves",
+    "linkedin": "https://www.linkedin.com/in/beto-damasceno/"
+  },
+  "avatar": "/img/hero_noir_portrait.png",
+  "resume": {
+    "pt-BR": "/resume/pt-BR.pdf",
+    "en": "/resume/en.pdf",
+    "es": "/resume/es.pdf"
+  }
+}

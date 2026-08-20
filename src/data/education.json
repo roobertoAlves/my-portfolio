@@ -1,0 +1,28 @@
+[
+  {
+    "id": "graduation",
+    "institution": "Instituto Federal de Educação, Ciência e Tecnologia de Sao Paulo (IFSP)",
+    "degree": {
+      "pt-BR": "Tecnologo em Análise e Desenvolvimento de Sistemas",
+      "en": "B.Sc. in Computer Science",
+      "es": "Licenciatura en Ciencias de la Computación"
+    },
+    "start": "2019-02",
+    "end": null,
+    "location": "Brasil",
+    "details": {
+      "pt-BR": [
+        "Foco em desenvolvimento de software, arquitetura e jogos.",
+        "Projetos em Unity, C# e aplicações web."
+      ],
+      "en": [
+        "Focus on software development, architecture, and games.",
+        "Projects in Unity, C#, and web applications."
+      ],
+      "es": [
+        "Foco en desarrollo de software, arquitectura y juegos.",
+        "Proyectos en Unity, C# y aplicaciones web."
+      ]
+    }
+  }
+]

@@ -26,7 +26,13 @@
     "anthropic",
     "anthropic-sdk",
     "shadcn",
-    "awwwards"
+    "awwwards",
+    "chave",
+    "existe",
+    "idioma",
+    "atual",
+    "Syntaxer",
+    "syntaxer"
   ],
   "ignorePaths": [
     "node_modules",

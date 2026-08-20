@@ -6,7 +6,10 @@
       "Bash(npm run *)",
       "Bash(npm ls *)",
       "Bash(npx tsc *)",
-      "Bash(echo \"---exit:$?---\")"
+      "Bash(echo \"---exit:$?---\")",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:5173/)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(npx eslint *)"
     ]
   }
 }
