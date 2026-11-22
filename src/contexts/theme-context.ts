@@ -6,7 +6,7 @@ export type ResolvedTheme = "light" | "dark";
 export interface ThemeContextValue {
   theme: Theme;
   resolvedTheme: ResolvedTheme;
-  setTheme: (theme: Theme) => void;
+  setTheme: (next: Theme) => void;
   toggleTheme: () => void;
 }
 

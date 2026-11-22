@@ -32,7 +32,12 @@
     "idioma",
     "atual",
     "Syntaxer",
-    "syntaxer"
+    "syntaxer",
+    "Embla",
+    "embla",
+    "nums",
+    "tabular-nums",
+    "radix"
   ],
   "ignorePaths": [
     "node_modules",

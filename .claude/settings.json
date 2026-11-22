@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc --noEmit)",
+      "Bash(npx eslint src)",
+      "Bash(npm run lint)",
+      "Bash(npm test)",
+      "Bash(npm run check)",
+      "mcp__claude-in-chrome__read_page",
+      "mcp__Claude_Browser__read_page",
+      "mcp__Claude_Browser__get_page_text",
+      "mcp__Claude_Browser__read_console_messages",
+      "mcp__terminal__read_terminal",
+      "mcp__plugin_design_figma__get_screenshot",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Process *)"
+    ]
+  }
+}
